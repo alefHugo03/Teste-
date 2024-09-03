@@ -1,0 +1,60 @@
+body{
+    color:rgba(255, 255, 255, 0.671);
+    background:rgb(43, 42, 42);
+    margin-bottom: 100px;
+}
+header{
+    border-bottom:solid 7px red;
+    padding: 20px;
+    font-size: 45px;
+    color: rgb(145, 195, 8);
+    font-family: "Matemasie", sans-serif;
+}
+.chamada{
+    background: rgb(15, 89, 15);
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.teste-video{
+    margin-left: 5%;
+    padding-right: 5%;
+}
+.teste-texto{
+    padding-left: 5%;
+    margin-right:5%
+    font-size:20px;
+}
+h1{
+    font-family: "Bree Serif", serif;
+}
+.vvideos{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    display: flex;
+    overflow-x: auto;
+    gap:10px;
+}
+.videos{
+    padding-top: 1%;
+    padding-right: 20px;
+    border: 40 px;
+}
+section{
+    background: rgb(2, 62, 2) ;
+}
+.vvideos img {
+    height:200px;
+    opacity: 0.6;
+}
+.vvideos img:hover{
+    opacity: 1.0;
+    border: 1px solid white;
+}
+.videos h2{
+    color: orange;
+}
+.Fote{
+    padding-bottom: 1%;
+}
